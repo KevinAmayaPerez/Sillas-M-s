@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="styles/homepage/styles.css" rel="stylesheet">
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                document.addEventListener('scroll', () => {
+                    let navBar = document.querySelector('nav');
+                    if (window.scrollY > 0) {
+                        navBar.style.background = 'white';
+                        navBar.style.boxShadow = '0 5px 20px rgba(190, 190, 190, 0.15)'
+                    }
+                    else {
+                        navBar.style.background = 'transparent';
+                        navBar.style.boxShadow = 'none'
+                    }
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <nav>
+            <div id="navbar">
+                <div id="navbar-logo">
+                    <img src="images/Logo_Sillas&Mas.png" width="140" height="70">
+                </div>
+                <div id="navbar-links">
+                    <ul>
+                        <li>
+                            <a href="index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="products.html">Productos</a>
+                        </li>
+                        <li>
+                            <a href="#">Servicios</a>
+                        </li>
+                        <li>
+                            <a href="#">Nosostros</a>
+                        </li>
+                    </ul>
+                    <button class="blue-button">
+                        Comprar ahora
+                    </button>
+                </div>
+            </div>
+        </nav>
+        
+
+        <!-- TOP -->
+        <div id="home-top-container">
+            <div id="home-top-wrapper">
+                <div id="home-top-text">
+                    <h1>
+                        Silla Mecedora
+                    </h1>
+                    <p>
+                        Descubre el máximo confort y estilo con nuestra exclusiva silla mecedora. 
+                        Su diseño ergonómico y su acolchado de lujo brindan el descanso que mereces, 
+                        mientras que su estructura resistente asegura durabilidad por años. 
+                        Perfecta para tu sala, terraza o cualquier rincón especial,
+                        esta silla es ideal para leer, relajarte o simplemente disfrutar de un momento de paz. 
+                        ¡Convierte cualquier espacio en un oasis de comodidad y elegancia con nuestra silla mecedora!
+                    </p>
+                    <button class="blue-button">
+                        Ver Colección
+                    </button>
+                </div>
+                <div id="home-top-image">
+                    <img src="images/Annuncie-removebg-preview.png" alt="Large Blue Smartwatch">
+                </div>
+            </div>
+        </div>
+
+        <!-- OUR COLLECTION/ TYPES OF PRODUCTS SELLING -->
+        <div id="collection-container">
+            <h1>Nuestra Coleccion</h1>
+            <div id="collection-items-wrapper">
+                <div class="collection-item">
+                    <div class="collection-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M4 2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v6h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v2a1 1 0 0 1-2 0v-2H6v2a1 1 0 0 1-2 0v-2H3a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h1V2zm2 0v6h4V2H6z"/>
+                          </svg>                          
+                    </div>
+                    <span class="collection-name">
+                        Sillas
+                    </span>
+                </div>
+                <div class="collection-item">
+                    <div class="collection-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M2 3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v2h-1v9a1 1 0 0 1-2 0V5H5v9a1 1 0 0 1-2 0V5H2V3zm1 0v1h10V3H3z"/>
+                          </svg>                          
+                    </div>
+                    <span class="collection-name">
+                        Mesas
+                    </span>
+                </div>
+                <div class="collection-item">
+                    <div class="collection-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M4 2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V2zm2 0v10h4V2H6zM3 14a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v1H3v-1z"/>
+                          </svg>                          
+                    </div>
+                    <span class="collection-name">
+                        Espejos
+                    </span>
+                </div>
+                <div class="collection-item">
+                    <div class="collection-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M5 2a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h1a1 1 0 0 1 1 1v2.5c0 .7-.2 1.3-.5 1.8.8.3 1.5.6 2.3.6a.5.5 0 0 1 0 1c-1.1 0-2.1-.3-3-.8a5.4 5.4 0 0 1-2.3.8c-.9 0-1.8-.3-2.6-.7a5.7 5.7 0 0 1-2.4.7.5.5 0 0 1 0-1c.8 0 1.5-.2 2.2-.6A3 3 0 0 1 4 10.5V8a1 1 0 0 1 1-1h1V2zm1 0v5h3V2H6zm-1 6v2.5c0 .6.2 1.2.6 1.7.5.4 1.2.8 2 .8s1.5-.4 2-.8c.4-.5.6-1.1.6-1.7V8H5z"/>
+                          </svg>                                                                            
+                    </div>
+                    <span class="collection-name">
+                        Mecedora
+                    </span>
+                </div>
+                <div class="collection-item">
+                    <div class="collection-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                            <path d="M13.6 2.4A8 8 0 0 0 8 0a8 8 0 0 0-7 12l-1 4 4.1-1A7.96 7.96 0 0 0 8 16a8 8 0 0 0 5.6-13.6ZM8 14a7 7 0 1 1 7-7 7 7 0 0 1-7 7Zm3.4-4.4c-.2-.1-1.2-.6-1.4-.7-.2-.1-.4-.1-.6.1s-.5.6-.6.7-.2.2-.4.1a5.7 5.7 0 0 1-2.2-2c-.1-.2 0-.3.1-.5s.3-.3.4-.5l.2-.4v-.1c0-.1 0-.2-.1-.3s-1-2.1-1.2-2.4-.3-.3-.4-.3h-.4c-.2 0-.4 0-.6.2s-.7.7-.7 1.6.7 1.9.8 2 .8 1.3 2.6 2.2a4.3 4.3 0 0 0 1.1.4 2.2 2.2 0 0 0 1.2-.1c.4-.1 1.2-.5 1.4-1s.2-.9.1-1-.1-.2-.3-.3Z"/>
+                          </svg>                          
+                    </div>
+                    <span class="collection-name">
+                        Otros
+                    </span>
+                </div>
+            </div>
+        </div> <!-- END OF PRODUCT COLLECTION-->
+
+        <!-- BEST SELLERS – PRODUCT SECTION -->
+        <div class="product-section-container">
+            <h1>Los más vendidos</h1>
+            <span class="product-section-description">
+                Lectus sapien auctor tortor quis pharetra ligula sapien eu augue. Praesent bibendum sapien ut 
+                est venenatis semper.
+            </span>
+            <ul class="product-section-items-wrapper">
+                <li class="product-item">
+                    <div class="product-image">
+                        <img src="images/collection/De_esos_accesorios_muy_necesarios____Recibidor_para_Calzado____️_️__hechoanano__artesanal__shoes__organizador__recibidor__apoyalocal__home__valledup_-removebg-preview.png" alt="Torquoise SmartWatch">
+                    </div>
+                    <div class="product-text">
+                        <span class="product-title">
+                            zapatero<br>
+                            Guarda tus zapatos
+                        </span>
+                        <div class="product-purchase">
+                            <span class="product-price">
+                                $300.00
+                            </span>
+                            <button class="blue-button add-to-cart">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="product-item">
+                    <div class="product-image">
+                        <img src="images/collection/Mesa_Comedor_ideal_para_restaurantes__️_tope_en_Melamina_️__hechoamano__artesanal__decoration__restaurante___interiordesign__diseño__table__mesa__a_-removebg-preview.png" alt="Torquoise SmartWatch">
+                    </div>
+                    <div class="product-text">
+                        <span class="product-title">
+                            Mesa de centro
+                        </span>
+                        <div class="product-purchase">
+                            <span class="product-price">
+                                $200.00
+                            </span>
+                            <button class="blue-button add-to-cart">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="product-item">
+                    <div class="product-image">
+                        <img src="images/collection/Más_Básicas_️__hechoamano__artesanal__decoration__diseño__tejido__artesanal__mecedora__tradicion__chair__silla__apoyalocal__valledupar__barranquilla__-removebg-preview.png" alt="Sunshine Yellow Bright">
+                    </div>
+                    <div class="product-text">
+                        <span class="product-title">
+                            Sillas artesanales
+                        </span>
+                        <div class="product-purchase">
+                            <span class="product-price">
+                                $500.00
+                            </span>
+                            <button class="blue-button add-to-cart">
+                                Add To Cart
+                            </button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div> <!-- END OF BEST SELLERS - PRODUCT SECTION -->
+
+        <!-- IPAD PROMO -->
+        <div class="promo-container">
+            <div class="promo-box">
+                <div class="promo-image">
+                    <img src="images/collection/Máxi_Espejos_️__hechoamano__aetesanal__decoracion__espejo__hierro__interiordesign__apoyalocal__valledupar__laguajira____JPG_-removebg-preview.png" alt="Candyfloss Pink Two-Earpiece Headphone">
+                </div>
+                <div class="promo-content">
+                    <h1>Proximamente</h1>
+                    <h2>Espejo control</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Curabitur tristique quam eget eros convallis, 
+                        sit amet pellentesque. 
+                    </p>
+                    <div>
+                        <button class="white-button">
+                            Comprar ahora
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- END OF IPAD PROMO -->
+        
+    </body>
+    <footer>
+        <div id="footer-top">
+            <img src="images/Logo_Sillas&Mas.png" alt="eLife Logo" width="220px" height="110px">
+            <div id="footer-socials-wrapper">
+                <div class="footer-social">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                    </svg>
+                    <span>3012119941</span>
+                </div>
+                <div class="footer-social">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                        <path d="M13.601 2.399A7.946 7.946 0 0 0 8 0a8 8 0 0 0-7 11.998L0 16l4.137-.978A7.964 7.964 0 0 0 8 16a8 8 0 0 0 5.601-13.601ZM8 14a6.965 6.965 0 0 1-3.64-.999l-.26-.154-2.453.58.585-2.392-.168-.273A7 7 0 1 1 8 14Zm3.468-4.412c-.196-.099-1.168-.576-1.35-.64-.181-.064-.314-.099-.446.1-.132.199-.51.64-.624.773-.114.132-.23.149-.426.05A5.37 5.37 0 0 1 6.9 8.885a3.064 3.064 0 0 1-.91-1.219c-.096-.183-.01-.281.073-.373.077-.085.172-.222.258-.332.086-.11.114-.183.172-.296.06-.113.03-.214-.015-.296-.045-.081-.446-1.073-.61-1.468-.16-.384-.323-.331-.446-.337a1.76 1.76 0 0 0-.37-.004c-.127 0-.333.048-.507.224-.173.175-.666.651-.666 1.586s.682 1.847.777 1.975c.096.128 1.344 2.057 3.256 2.882.454.196.808.314 1.084.403.456.146.873.125 1.2.076.366-.055 1.168-.477 1.334-.938.166-.462.166-.857.116-.938-.05-.08-.18-.129-.376-.228Z"/>
+                      </svg>                      
+                    <span>Whatsapp</span>
+                </div>
+                <div class="footer-social">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 3a5 5 0 1 0 0 10A5 5 0 0 0 8 3Zm0 8.2A3.2 3.2 0 1 1 8 4.8a3.2 3.2 0 0 1 0 6.4Z"/>
+                        <path d="M12.8 2.2a.9.9 0 1 1-1.8 0 .9.9 0 0 1 1.8 0Z"/>
+                        <path d="M1 5a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v6a4 4 0 0 1-4 4H5a4 4 0 0 1-4-4V5Zm4-2a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5Z"/>
+                      </svg>                      
+                    <span>Instagram</span>
+                </div>
+            </div>
+        </div>
+        <div id="footer-bottom">
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="products.html">Productos</a>
+                </li>
+                <li>
+                    <a href="#">Servicios</a>
+                </li>
+                <li>
+                    <a href="#">Nosotros</a>
+                </li>
+            </ul>
+            <p>
+                Copyright © 2025 Sillas&Más. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+</html>
